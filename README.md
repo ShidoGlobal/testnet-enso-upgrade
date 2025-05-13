@@ -15,7 +15,7 @@ System Requirements:
 
 #### Clone this repo using:
 ```bash
-git clone 'repourl'
+git clone https://github.com/ShidoGlobal/testnet-enso-upgrade.git
 
 ```
 ## Run this script file for upgrade:
@@ -23,12 +23,12 @@ git clone 'repourl'
 open a terminal window and run the following command.This command will create a upgrade version folder inside node directory
 [Verify permission of that file]
 ```bash
-./upgrade_shido_node.sh (it's for ubuntu os)
+./upgrade_shido_node.sh 
 ```
 
 **NOTE:** The blockchain syncing is running in a background as a service you can print the logs and check the logs of the node with the following command.
 ```bash
-journalctl -u shidochain -f (it's for ubuntu)
+journalctl -u shidochain -f 
 ```
 
 
